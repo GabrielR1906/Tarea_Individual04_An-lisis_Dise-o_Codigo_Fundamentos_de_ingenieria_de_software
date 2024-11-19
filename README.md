@@ -1,0 +1,2 @@
+# Tarea_Individual04_An-lisis_Dise-o_Codigo_Fundamentos_de_ingenieria_de_software
+Tarea_Individual04_Análisis_Diseño_Codigo
