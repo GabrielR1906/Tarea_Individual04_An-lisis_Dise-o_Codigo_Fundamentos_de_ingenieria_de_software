@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    height: 80vh;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    flex: 1;
+    background: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-container h1 {
+    font-size: 2rem;
+    color: #009688;
+    margin-bottom: 10px;
+}
+
+.form-container p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.form-container label {
+    font-size: 0.9rem;
+    color: #444;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-container input:focus {
+    outline: none;
+    border-color: #009688;
+}
+
+.form-container a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: #009688;
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #00796b;
+}
+
+.logo-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo-bottom img {
+    max-width: 80%;
+    margin-bottom: 10px;
+}
+
+.logo-bottom p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.logo-bottom span {
+    color: #009688;
+    font-weight: bold;
+}
+
+.right-section {
+    flex: 1;
+    background-color: #00796b;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.overlay {
+    position: absolute;
+    top: 20px;
+    text-align: center;
+}
+
+.overlay .logo-top {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    margin-top: 50px; /* Mueve la imagen hacia abajo */
+    max-width: 100%; /* Opcional: ajusta el tamaño */
+    height: auto;
+    margin-top: 310px;
+}
+
+.terminos {
+    color: #BEBEBE;
+    display: flex;
+    justify-content: space-between; /* Espacio uniforme entre textos */
+}
+
+/* Estilo para el Dashboard */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+
+.dashboard-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.dashboard-header {
+    background-color: #009688;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.dashboard-body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.dashboard-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.dashboard-item:hover {
+    background-color: #e0f2f1;
+}
+
+.dashboard-footer {
+    background-color: #009688;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+}
+
+/* Colores de acción */
+.dashboard-button {
+    background-color: #00796b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dashboard-button:hover {
+    background-color: #004d40;
+}
+
+.dashboard-link {
+    color: #009688;
+    text-decoration: none;
+}
+
+.dashboard-link:hover {
+    text-decoration: underline;
+}
+
+/* Agregar un estilo para los íconos (si decides usarlos) */
+.dashboard-item i {
+    font-size: 1.2rem;
+    color: #009688;
+}

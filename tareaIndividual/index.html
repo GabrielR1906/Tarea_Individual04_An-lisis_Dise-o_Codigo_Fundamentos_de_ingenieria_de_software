@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión - Clínica San José</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="form-container">
+                <h1>Iniciar Sesión</h1>
+                <p>Acceder al sistema de gestión hospitalaria</p>
+                <form action="login.php" method="POST">
+                    <label for="email">Usuario</label>
+                    <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                    
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" placeholder="Ingresar Contraseña" required>
+                    
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                    
+                    <button type="submit">Acceder</button>
+                </form>
+            </div>
+            <div class="logo-bottom">
+                <img src="..\tareaIndividual\img\logo.png" alt="Clínica San José" width="250">
+            </div>
+            <div class="terminos">
+                <p> Políticas de Privacidad</p>
+                <p> Términos y condiciones</p>
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="overlay">
+                <img class="logo-top" src="..\tareaIndividual\img\logopequeno.png" alt="Logo de la Clínica" width="250">
+            </div>
+            <div class="image-container">
+                <img src="..\tareaIndividual\img\doctores.png" alt="Foto de doctores">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
